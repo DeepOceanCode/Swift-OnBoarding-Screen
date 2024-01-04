@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA64D8232B4587EC008B220E /* SnackOverflowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D8222B4587EC008B220E /* SnackOverflowApp.swift */; };
+		AA64D8252B4587EC008B220E /* OnBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D8242B4587EC008B220E /* OnBoardView.swift */; };
+		AA64D8272B4587ED008B220E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA64D8262B4587ED008B220E /* Assets.xcassets */; };
+		AA64D82A2B4587ED008B220E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA64D8292B4587ED008B220E /* Preview Assets.xcassets */; };
+		AA64D8342B4587ED008B220E /* SnackOverflowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D8332B4587ED008B220E /* SnackOverflowTests.swift */; };
+		AA64D83E2B4587ED008B220E /* SnackOverflowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D83D2B4587ED008B220E /* SnackOverflowUITests.swift */; };
+		AA64D8402B4587ED008B220E /* SnackOverflowUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D83F2B4587ED008B220E /* SnackOverflowUITestsLaunchTests.swift */; };
+		AA64D8532B45882E008B220E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA64D8522B45882E008B220E /* Colors.xcassets */; };
+		AA64D8552B458838008B220E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA64D8542B458838008B220E /* Images.xcassets */; };
+		AA64D85D2B458FB5008B220E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D85C2B458FB5008B220E /* Color+Extensions.swift */; };
+		AA64D8602B45988D008B220E /* GeometryProxy+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D85F2B45988D008B220E /* GeometryProxy+Extensions.swift */; };
+		AA64D8622B45993F008B220E /* OnBoardTabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D8612B45993F008B220E /* OnBoardTabModel.swift */; };
+		AA64D8662B45A818008B220E /* AuthButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D8652B45A818008B220E /* AuthButtonModifier.swift */; };
+		AA64D8692B45A99F008B220E /* AuthButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D8682B45A99F008B220E /* AuthButtonView.swift */; };
+		AA64D8712B45BC38008B220E /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA64D8702B45BC38008B220E /* View+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA64D8302B4587ED008B220E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA64D8172B4587EC008B220E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA64D81E2B4587EC008B220E;
+			remoteInfo = SnackOverflow;
+		};
+		AA64D83A2B4587ED008B220E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA64D8172B4587EC008B220E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA64D81E2B4587EC008B220E;
+			remoteInfo = SnackOverflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA64D81F2B4587EC008B220E /* SnackOverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackOverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA64D8222B4587EC008B220E /* SnackOverflowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverflowApp.swift; sourceTree = "<group>"; };
+		AA64D8242B4587EC008B220E /* OnBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardView.swift; sourceTree = "<group>"; };
+		AA64D8262B4587ED008B220E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA64D8292B4587ED008B220E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA64D82F2B4587ED008B220E /* SnackOverflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackOverflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA64D8332B4587ED008B220E /* SnackOverflowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverflowTests.swift; sourceTree = "<group>"; };
+		AA64D8392B4587ED008B220E /* SnackOverflowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnackOverflowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA64D83D2B4587ED008B220E /* SnackOverflowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverflowUITests.swift; sourceTree = "<group>"; };
+		AA64D83F2B4587ED008B220E /* SnackOverflowUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackOverflowUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA64D8522B45882E008B220E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AA64D8542B458838008B220E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA64D85C2B458FB5008B220E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		AA64D85F2B45988D008B220E /* GeometryProxy+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeometryProxy+Extensions.swift"; sourceTree = "<group>"; };
+		AA64D8612B45993F008B220E /* OnBoardTabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardTabModel.swift; sourceTree = "<group>"; };
+		AA64D8652B45A818008B220E /* AuthButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonModifier.swift; sourceTree = "<group>"; };
+		AA64D8682B45A99F008B220E /* AuthButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthButtonView.swift; sourceTree = "<group>"; };
+		AA64D8702B45BC38008B220E /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA64D81C2B4587EC008B220E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA64D82C2B4587ED008B220E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA64D8362B4587ED008B220E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA64D8162B4587EC008B220E = {
+			isa = PBXGroup;
+			children = (
+				AA64D8212B4587EC008B220E /* SnackOverflow */,
+				AA64D8322B4587ED008B220E /* SnackOverflowTests */,
+				AA64D83C2B4587ED008B220E /* SnackOverflowUITests */,
+				AA64D8202B4587EC008B220E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA64D8202B4587EC008B220E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D81F2B4587EC008B220E /* SnackOverflow.app */,
+				AA64D82F2B4587ED008B220E /* SnackOverflowTests.xctest */,
+				AA64D8392B4587ED008B220E /* SnackOverflowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA64D8212B4587EC008B220E /* SnackOverflow */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D84C2B458808008B220E /* App */,
+				AA64D84F2B458811008B220E /* Core */,
+				AA64D84D2B45880A008B220E /* Utils */,
+				AA64D8502B458814008B220E /* Features */,
+				AA64D84E2B45880E008B220E /* Product */,
+				AA64D8512B458820008B220E /* Resources */,
+				AA64D8282B4587ED008B220E /* Preview Content */,
+			);
+			path = SnackOverflow;
+			sourceTree = "<group>";
+		};
+		AA64D8282B4587ED008B220E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8292B4587ED008B220E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA64D8322B4587ED008B220E /* SnackOverflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8332B4587ED008B220E /* SnackOverflowTests.swift */,
+			);
+			path = SnackOverflowTests;
+			sourceTree = "<group>";
+		};
+		AA64D83C2B4587ED008B220E /* SnackOverflowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D83D2B4587ED008B220E /* SnackOverflowUITests.swift */,
+				AA64D83F2B4587ED008B220E /* SnackOverflowUITestsLaunchTests.swift */,
+			);
+			path = SnackOverflowUITests;
+			sourceTree = "<group>";
+		};
+		AA64D84C2B458808008B220E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8222B4587EC008B220E /* SnackOverflowApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		AA64D84D2B45880A008B220E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8592B458F9D008B220E /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AA64D84E2B45880E008B220E /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8672B45A98F008B220E /* Buttons */,
+				AA64D8642B45A7F3008B220E /* ViewModifiers */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		AA64D84F2B458811008B220E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AA64D8502B458814008B220E /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8562B4588AD008B220E /* Authentication */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		AA64D8512B458820008B220E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8262B4587ED008B220E /* Assets.xcassets */,
+				AA64D8522B45882E008B220E /* Colors.xcassets */,
+				AA64D8542B458838008B220E /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AA64D8562B4588AD008B220E /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8582B4588EC008B220E /* OnBoard */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		AA64D8582B4588EC008B220E /* OnBoard */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8242B4587EC008B220E /* OnBoardView.swift */,
+				AA64D8612B45993F008B220E /* OnBoardTabModel.swift */,
+			);
+			path = OnBoard;
+			sourceTree = "<group>";
+		};
+		AA64D8592B458F9D008B220E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D85C2B458FB5008B220E /* Color+Extensions.swift */,
+				AA64D85F2B45988D008B220E /* GeometryProxy+Extensions.swift */,
+				AA64D8702B45BC38008B220E /* View+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		AA64D8642B45A7F3008B220E /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8652B45A818008B220E /* AuthButtonModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		AA64D8672B45A98F008B220E /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				AA64D8682B45A99F008B220E /* AuthButtonView.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA64D81E2B4587EC008B220E /* SnackOverflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA64D8432B4587ED008B220E /* Build configuration list for PBXNativeTarget "SnackOverflow" */;
+			buildPhases = (
+				AA64D81B2B4587EC008B220E /* Sources */,
+				AA64D81C2B4587EC008B220E /* Frameworks */,
+				AA64D81D2B4587EC008B220E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnackOverflow;
+			productName = SnackOverflow;
+			productReference = AA64D81F2B4587EC008B220E /* SnackOverflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA64D82E2B4587ED008B220E /* SnackOverflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA64D8462B4587ED008B220E /* Build configuration list for PBXNativeTarget "SnackOverflowTests" */;
+			buildPhases = (
+				AA64D82B2B4587ED008B220E /* Sources */,
+				AA64D82C2B4587ED008B220E /* Frameworks */,
+				AA64D82D2B4587ED008B220E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA64D8312B4587ED008B220E /* PBXTargetDependency */,
+			);
+			name = SnackOverflowTests;
+			productName = SnackOverflowTests;
+			productReference = AA64D82F2B4587ED008B220E /* SnackOverflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA64D8382B4587ED008B220E /* SnackOverflowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA64D8492B4587ED008B220E /* Build configuration list for PBXNativeTarget "SnackOverflowUITests" */;
+			buildPhases = (
+				AA64D8352B4587ED008B220E /* Sources */,
+				AA64D8362B4587ED008B220E /* Frameworks */,
+				AA64D8372B4587ED008B220E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA64D83B2B4587ED008B220E /* PBXTargetDependency */,
+			);
+			name = SnackOverflowUITests;
+			productName = SnackOverflowUITests;
+			productReference = AA64D8392B4587ED008B220E /* SnackOverflowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA64D8172B4587EC008B220E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					AA64D81E2B4587EC008B220E = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					AA64D82E2B4587ED008B220E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AA64D81E2B4587EC008B220E;
+					};
+					AA64D8382B4587ED008B220E = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = AA64D81E2B4587EC008B220E;
+					};
+				};
+			};
+			buildConfigurationList = AA64D81A2B4587EC008B220E /* Build configuration list for PBXProject "SnackOverflow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA64D8162B4587EC008B220E;
+			productRefGroup = AA64D8202B4587EC008B220E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA64D81E2B4587EC008B220E /* SnackOverflow */,
+				AA64D82E2B4587ED008B220E /* SnackOverflowTests */,
+				AA64D8382B4587ED008B220E /* SnackOverflowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA64D81D2B4587EC008B220E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA64D8532B45882E008B220E /* Colors.xcassets in Resources */,
+				AA64D8552B458838008B220E /* Images.xcassets in Resources */,
+				AA64D82A2B4587ED008B220E /* Preview Assets.xcassets in Resources */,
+				AA64D8272B4587ED008B220E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA64D82D2B4587ED008B220E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA64D8372B4587ED008B220E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA64D81B2B4587EC008B220E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA64D8692B45A99F008B220E /* AuthButtonView.swift in Sources */,
+				AA64D8252B4587EC008B220E /* OnBoardView.swift in Sources */,
+				AA64D85D2B458FB5008B220E /* Color+Extensions.swift in Sources */,
+				AA64D8662B45A818008B220E /* AuthButtonModifier.swift in Sources */,
+				AA64D8622B45993F008B220E /* OnBoardTabModel.swift in Sources */,
+				AA64D8602B45988D008B220E /* GeometryProxy+Extensions.swift in Sources */,
+				AA64D8712B45BC38008B220E /* View+Extension.swift in Sources */,
+				AA64D8232B4587EC008B220E /* SnackOverflowApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA64D82B2B4587ED008B220E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA64D8342B4587ED008B220E /* SnackOverflowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA64D8352B4587ED008B220E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA64D83E2B4587ED008B220E /* SnackOverflowUITests.swift in Sources */,
+				AA64D8402B4587ED008B220E /* SnackOverflowUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA64D8312B4587ED008B220E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA64D81E2B4587EC008B220E /* SnackOverflow */;
+			targetProxy = AA64D8302B4587ED008B220E /* PBXContainerItemProxy */;
+		};
+		AA64D83B2B4587ED008B220E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA64D81E2B4587EC008B220E /* SnackOverflow */;
+			targetProxy = AA64D83A2B4587ED008B220E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA64D8412B4587ED008B220E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA64D8422B4587ED008B220E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA64D8442B4587ED008B220E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnackOverflow/Preview Content\"";
+				DEVELOPMENT_TEAM = 46PR5V47LD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusberdibek.SnackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA64D8452B4587ED008B220E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnackOverflow/Preview Content\"";
+				DEVELOPMENT_TEAM = 46PR5V47LD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusberdibek.SnackOverflow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA64D8472B4587ED008B220E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46PR5V47LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusberdibek.SnackOverflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackOverflow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnackOverflow";
+			};
+			name = Debug;
+		};
+		AA64D8482B4587ED008B220E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46PR5V47LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusberdibek.SnackOverflowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackOverflow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnackOverflow";
+			};
+			name = Release;
+		};
+		AA64D84A2B4587ED008B220E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46PR5V47LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusberdibek.SnackOverflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnackOverflow;
+			};
+			name = Debug;
+		};
+		AA64D84B2B4587ED008B220E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46PR5V47LD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusberdibek.SnackOverflowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnackOverflow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA64D81A2B4587EC008B220E /* Build configuration list for PBXProject "SnackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA64D8412B4587ED008B220E /* Debug */,
+				AA64D8422B4587ED008B220E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA64D8432B4587ED008B220E /* Build configuration list for PBXNativeTarget "SnackOverflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA64D8442B4587ED008B220E /* Debug */,
+				AA64D8452B4587ED008B220E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA64D8462B4587ED008B220E /* Build configuration list for PBXNativeTarget "SnackOverflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA64D8472B4587ED008B220E /* Debug */,
+				AA64D8482B4587ED008B220E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA64D8492B4587ED008B220E /* Build configuration list for PBXNativeTarget "SnackOverflowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA64D84A2B4587ED008B220E /* Debug */,
+				AA64D84B2B4587ED008B220E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA64D8172B4587EC008B220E /* Project object */;
+}
